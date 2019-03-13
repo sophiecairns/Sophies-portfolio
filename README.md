@@ -1,2 +1,2 @@
-# Starter-Kit-w-Sass
-Starterkit with Sass and Gulp for basic website
+# Evandahs Portfolio
+A portfolio I am building showcasing all my design work
