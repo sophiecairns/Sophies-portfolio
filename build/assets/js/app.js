@@ -1,1 +1,1 @@
-$(function(){$(".about-title").animate({right:"0px"},1e3,"easeInOutSine"),$(".border-line").delay(200).animate({right:"0px"},1e3,"easeInOutSine"),$(".about-title").delay(2e3).animate({opacity:"0"},1600,"easeInOutSine"),$(".border-line").delay(2e3).animate({width:"0",opacity:"0"},1600,"easeInOutSine")});
+$(window).scroll(function(){var o=$(window).scrollTop()/650%Math.PI;$("#logo").css({transform:"rotate("+o+"rad)"})});
