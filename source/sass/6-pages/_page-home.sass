@@ -1,0 +1,72 @@
+.canvas
+  *
+    box-sizing: border-box
+    background-color: rgba(222, 184, 128, 1)
+    height: 100%
+    width: 100%
+  .linecopy51
+    pointer-events: none
+    background-color: rgba(255, 255, 255, 0)
+    top: 485px
+    height: 4px
+    width: 1046px
+    position: absolute
+    margin: 0
+    left: 582px
+    -ms-transform: rotate(0deg)
+    -webkit-transform: rotate(0deg)
+    transform: rotate(0deg)
+  .hellomynameisev
+    pointer-events: none
+    background-color: rgba(255, 255, 255, 0)
+    top: 320px
+    height: 141px
+    width: 687px
+    position: absolute
+    margin: 0
+    left: 584px
+    -ms-transform: rotate(0deg)
+    -webkit-transform: rotate(0deg)
+    transform: rotate(0deg)
+  &.state0-to-keyframe1
+    .hellomynameisev
+      transition: all 0.001s ease-in-out 0s
+      left: 1451px
+    .linecopy51
+      transition: all 0.001s ease-in-out 0s
+      left: 1522px
+  &.keyframe1-to-keyframe2
+    .hellomynameisev
+      transition: all 0.8s ease-in-out 0.4s
+      left: 584px
+    .linecopy51
+      transition: all 0.7s ease-in-out 0.5s
+      left: 582px
+      height: 3px
+  &.keyframe2-to-keyframe3
+    .linecopy51
+      transition: all 0.8s ease-in-out 2s
+      width: 0px
+    .hellomynameisev
+      transition: all 1.2s ease-in-out 2s
+      width: 312px
+      top: 43px
+      left: 43px
+      height: 64px
+  &.state0
+  &.keyframe1
+    .hellomynameisev
+      left: 1451px
+    .linecopy51
+      left: 1522px
+  &.keyframe2 .linecopy51
+    height: 3px
+  &.keyframe3
+    .hellomynameisev
+      top: 43px
+      height: 64px
+      width: 312px
+      left: 43px
+    .linecopy51
+      height: 3px
+      width: 0px
