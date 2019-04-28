@@ -8,18 +8,21 @@
 
 .intro-description
   margin: 0px
+  padding-right: 5%
 
 
 .tile
   position: relative
   display: block
   height: 550px
-  margin-right: 65px
+  margin-right: 5%
   width: 95%
   background-position: center
   background-repeat: no-repeat
   background-size: cover
   text-align: center
+  @media only screen and (max-width: 950px)
+    height: 420px
 
 .overlay
   background: $Peach
@@ -41,6 +44,8 @@
     top: 25%
     h1,p
       color: white
+      padding-right: 30px
+      padding-left: 30px
   
 
 #kopi-project
@@ -61,9 +66,14 @@
   display: block
 
 .fullscreen
-  padding-top: 100px
+  display: block
+  padding-top: 8%
+  padding-bottom: 8%
   padding-right: 3%
   height: 100vh
+  h1
+    display: block
+
 
 #experience
   background-color: $Peach
@@ -71,6 +81,7 @@
   flex-direction: column
   justify-content: center
   height: 90vh
+  padding-right: 5%
   
 
 .number
@@ -79,6 +90,8 @@
   margin: 0px
   line-height: 0px
   font-size: 103px
+  @media only screen and (max-width: 1100px)
+    font-size: 70px
 
 .line
   width: 54px
@@ -86,11 +99,18 @@
   margin-left: 4px
   margin-right: 4px
   display: inline-block
+  @media only screen and (max-width: 1100px)
+    width: 30px
+    height: auto
+
 
 .experience-item
   display: inline-block
   color: white
   font-size: 28px
+  @media only screen and (max-width: 1100px)
+    font-size: 20px
+
 
 
 .col-1, .col-2
@@ -107,6 +127,8 @@
 .padding-left
   padding-left: 20px
   margin-left: 14.583333333333334%
+  @media only screen and (max-width: 1150px)
+    margin-left: 18%
 
 #contact
   height: 95vh
@@ -127,6 +149,8 @@
   padding-left: 20px
   margin-left: 14.583333333333334%
   margin-bottom: 40px
+  @media only screen and (max-width: 1100px)
+    margin-left: 18%
   p
     display: inline-block
     margin: 0px
