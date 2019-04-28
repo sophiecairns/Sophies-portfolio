@@ -407,6 +407,12 @@ li {
       #link-container li {
         font-size: 18px; } }
 
+.white {
+  color: white !important; }
+
+.white-logo {
+  filter: brightness(0) invert(1); }
+
 .flex-video {
   height: 0;
   margin-bottom: 0.88889rem;
