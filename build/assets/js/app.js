@@ -1,1 +1,1 @@
-$(window).scroll(function(){var o=$(window).scrollTop()/650%Math.PI;$("#logo").css({transform:"rotate("+o+"rad)"})});
+$(window).scroll(function(){var o=$(window).scrollTop()/650%Math.PI;$("#logo").css({transform:"rotate("+o+"rad)"})}),window.sr=ScrollReveal(),sr.reveal("#main-intro, #work-intro",{delay:0,duration:2e3,origin:"bottom",distance:"50px"});
