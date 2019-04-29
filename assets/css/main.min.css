@@ -566,6 +566,11 @@ li {
     .fullscreen {
       padding-top: 20%;
       padding-right: 5%; } }
+  @media only screen and (max-width: 450px) {
+    .fullscreen {
+      height: auto;
+      padding-top: 20%;
+      padding-bottom: 20%; } }
   .fullscreen h1 {
     display: block; }
 
