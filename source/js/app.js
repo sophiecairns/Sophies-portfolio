@@ -13,28 +13,10 @@ sr.reveal('#main-intro, #work-intro', {
 })
 
 $(window).scroll(function () {
-  var navlink = $('#nav-item-1')
+  var navlink = $('#anchor1')
 
-  var fixedposition = $('#nav-item-1').offset().top
-  var fixedheight = $('#nav-item-1').height()
-
-  var toCrossposition = $('#experience').offset().top
-  var toCrossheight = $('#experience').height()
-
-  if (fixedposition + fixedheight < toCrossposition) {
-    navlink.removeClass('white')
-  } else if (fixedposition > toCrossposition + toCrossheight) {
-    navlink.removeClass('white')
-  } else {
-    navlink.addClass('white')
-  }
-})
-
-$(window).scroll(function () {
-  var navlink = $('#nav-item-2')
-
-  var fixedposition = $('#nav-item-2').offset().top
-  var fixedheight = $('#nav-item-2').height()
+  var fixedposition = $('#anchor1').offset().top
+  var fixedheight = $('#anchor1').height()
 
   var toCrossposition = $('#experience').offset().top
   var toCrossheight = $('#experience').height()
@@ -49,10 +31,28 @@ $(window).scroll(function () {
 })
 
 $(window).scroll(function () {
-  var navlink = $('#nav-item-3')
+  var navlink = $('#anchor2')
 
-  var fixedposition = $('#nav-item-3').offset().top
-  var fixedheight = $('#nav-item-3').height()
+  var fixedposition = $('#anchor2').offset().top
+  var fixedheight = $('#anchor2').height()
+
+  var toCrossposition = $('#experience').offset().top
+  var toCrossheight = $('#experience').height()
+
+  if (fixedposition + fixedheight < toCrossposition) {
+    navlink.removeClass('white')
+  } else if (fixedposition > toCrossposition + toCrossheight) {
+    navlink.removeClass('white')
+  } else {
+    navlink.addClass('white')
+  }
+})
+
+$(window).scroll(function () {
+  var navlink = $('#anchor3')
+
+  var fixedposition = $('#anchor3').offset().top
+  var fixedheight = $('#anchor3').height()
 
   var toCrossposition = $('#experience').offset().top
   var toCrossheight = $('#experience').height()
