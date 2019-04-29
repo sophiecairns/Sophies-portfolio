@@ -257,11 +257,8 @@ input[type="button"] {
     transform: translateY(3px); }
 
 a {
-  color: #0074D9;
   text-decoration: none;
-  outline: 0; }
-  a:hover, a:focus {
-    color: #F012BE; }
+  color: #d98884; }
 
 ::selection {
   background: #FFF498; }
