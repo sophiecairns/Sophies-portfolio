@@ -83,3 +83,43 @@ $(window).scroll(function () {
     navlink.addClass('white-logo')
   }
 })
+
+$('#pan-am-project').hover(function () {
+  $('#pan-am-project .project-title').animate({bottom: '0px'}, 500, 'easeInOutSine')
+  $('#pan-am-project .overlay').animate({height: '40%'}, 500, 'easeInOutSine')
+}, function () {
+  $('#pan-am-project .project-title').animate({bottom: '25%'}, 500, 'easeInOutSine')
+  $('#pan-am-project .overlay').animate({bottom: '0px', height: '100%'}, 500, 'easeInOutSine')
+})
+
+if ($(window).width() > 768) {
+  $('#pan-am-project').hover(function () {
+    $('#pan-am-project .project-title .short').css({display: 'none'}
+  }, function () {
+    $('#pan-am-project .project-title .short').css({display: 'inline-block'}
+  })
+}
+
+$('#kopi-project').hover(function () {
+  $('#kopi-project .project-title').animate({bottom: '0px'}, 500, 'easeInOutSine')
+  $('#kopi-project .overlay').animate({height: '40%'}, 500, 'easeInOutSine')
+}, function () {
+  $('#kopi-project .project-title').animate({bottom: '25%'}, 500, 'easeInOutSine')
+  $('#kopi-project .overlay').animate({bottom: '0px', height: '100%'}, 500, 'easeInOutSine')
+})
+
+$('#wantaim-project').hover(function () {
+  $('#wantaim-project .project-title').animate({bottom: '0px'}, 500, 'easeInOutSine')
+  $('#wantaim-project .overlay').animate({height: '40%'}, 500, 'easeInOutSine')
+}, function () {
+  $('#wantaim-project .project-title').animate({bottom: '25%'}, 500, 'easeInOutSine')
+  $('#wantaim-project .overlay').animate({bottom: '0px', height: '100%'}, 500, 'easeInOutSine')
+})
+
+$('#finless-project').hover(function () {
+  $('#finless-project .project-title').animate({bottom: '0px'}, 500, 'easeInOutSine')
+  $('#finless-project .overlay').animate({height: '40%'}, 500, 'easeInOutSine')
+}, function () {
+  $('#finless-project .project-title').animate({bottom: '25%'}, 500, 'easeInOutSine')
+  $('#finless-project .overlay').animate({bottom: '0px', height: '100%'}, 500, 'easeInOutSine')
+})

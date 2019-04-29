@@ -45,13 +45,15 @@
     margin-bottom: 30px
 
 .overlay
+  position: absolute
   background: $Peach
+  bottom: 0px
   width: 100%
   height: 100%
   z-index: 2
   opacity: 0.75
-.overlay:hover
-  opacity: 0
+  transform-origin: 0 100%
+
   
 
 #pan-am-project
@@ -61,13 +63,19 @@
     position: absolute
     z-index: 3
     width: 100%
-    top: 25%
+    bottom: 25%
+    @media only screen and (max-width: 400px)
+      bottom: 10%
     h1,p
       color: white
       padding-right: 30px
       padding-left: 30px
+      margin-top: 15px
 
 
+
+.tile-paragraph
+  margin-top: 20px
   
 
 #kopi-project
