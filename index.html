@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+    <link rel="shortcut icon" type="image/png" href="http://example.com/favicon.png"/>
     <title>Sophie Cairns Design</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -13,9 +15,9 @@
         </a>
         <div id="link-container">
           <ul>
-            <a href="#projects"><li>projects</li></a>
-            <a href="#about"><li>about</li></a>
-            <a href="#contact"><li>contact</li></a>
+            <a href="#projects" id="anchor1"><li id="nav-item-1">projects</li></a>
+            <a href="#about" id="anchor2"><li id="nav-item-2">about</li></a>
+            <a href="#contact" id="anchor3"><li id="nav-item-3">contact</li></a>
           </ul>
         </div>
       </div>
@@ -27,25 +29,30 @@
         </h1>
         <p class="intro-description">My happy place is the sweet spot where design and marketing meet.</p>
       </div>
-      <section id="projects"><a name="projects"></a>
+      <section id="projects"><a name="projects" id="anchor1"></a>
+        <a href="pan_am.html">
         <div id="pan-am-project" class="tile">
           <div class="project-title">
                 <a href="pan_am.html">
                   <h1 class="large">Pan Am</h1>
                 </a>
-                <p>Reinventing a Classic American Brand</p>
+                <p class="short">Reinventing a Classic American Brand</p>
               </div>
             <div class="overlay"></div>
         </div>
+      </a>
+        <a href="kopi.html">
         <div id="kopi-project" class="tile">
             <div class="project-title">
               <a href="kopi.html">
                 <h1 class="large">Kopi</h1>
               </a>
-              <p>Papua New Guinea coffee - the locals choice </p>
+              <p class="tile-paragraph">Papua New Guinea coffee - the locals choice </p>
             </div>
             <div class="overlay"></div>
         </div>
+      </a>
+      <a href="wantaim.html">
         <div id="wantaim-project" class="tile">
             <div class="project-title">
               <a href="wantaim.html">
@@ -55,6 +62,8 @@
             </div>
             <div class="overlay"></div>
         </div>
+      </a>
+      <a href="finless.html">
         <div id="finless-project" class="tile">
             <div class="project-title">
               <a href="finless.html">
@@ -65,7 +74,8 @@
             <div class="overlay"></div>
         </div>
       </section>
-      <section id="about"><a name="about"></a>
+    </a>
+      <section id="about"><a name="about" id="anchor2"></a>
         <div class="fullscreen">
           <h1 class="big">
               Iʼm a highly creative, strategic thinker with branding and design experience, including social media content creation and management.
@@ -105,7 +115,7 @@
                   <li>
                       <h2 class="number bigger">3</h2>
                       <img class="line" src="assets/img/Line.svg">
-                      <p class="experience-item">In-house Companies</p>
+                      <p class="experience-item">In-hourse Companies</p>
                     </li>
                     <li id="col-2-last-item">
                         <h2 class="number bigger">10</h2>
@@ -117,12 +127,12 @@
         </div>
     </div>
   </div>
-  <section id="contact" class="padding-left"> <a name="contact"></a>
+  <section id="contact" class="padding-left"> <a name="contact" id="anchor3"></a>
     <div>
       <img src="assets/img/Goodbye-Gif.gif">
       <p>If you've got an awesome project in mind, or just<br> want to say hi and get a coffee then let's chat.
       </p>
-      <a href="sophiecairnsdesign@gmail.com">
+      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sophiecairnsdesign@gmail.com&su=DesignEnquiry">
           <p class="underline">Compose an email</p>
       </a>
     </div>
