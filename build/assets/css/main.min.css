@@ -257,11 +257,8 @@ input[type="button"] {
     transform: translateY(3px); }
 
 a {
-  color: #0074D9;
   text-decoration: none;
-  outline: 0; }
-  a:hover, a:focus {
-    color: #F012BE; }
+  color: #d98884; }
 
 ::selection {
   background: #FFF498; }
@@ -566,6 +563,11 @@ li {
     .fullscreen {
       padding-top: 20%;
       padding-right: 5%; } }
+  @media only screen and (max-width: 450px) {
+    .fullscreen {
+      height: 800px;
+      padding-top: 20%;
+      padding-bottom: 20%; } }
   .fullscreen h1 {
     display: block; }
 
