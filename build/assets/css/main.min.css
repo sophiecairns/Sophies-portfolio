@@ -763,6 +763,25 @@ li {
   #footer img {
     margin-right: 20px; }
 
+.screen-optimisation-notice {
+  top: 0px;
+  bottom: 0px;
+  position: fixed;
+  display: block;
+  height: 100%;
+  width: 100%;
+  background: #d98884;
+  opacity: 0.85;
+  text-align: center;
+  z-index: 99; }
+  @media only screen and (max-width: 1440px) {
+    .screen-optimisation-notice {
+      display: none; } }
+  .screen-optimisation-notice h1 {
+    font-size: 40px;
+    margin-top: 45vh;
+    color: white; }
+
 .work-catagories {
   padding: 0px;
   margin: 0px; }
