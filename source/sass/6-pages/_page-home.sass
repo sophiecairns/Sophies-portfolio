@@ -1,6 +1,9 @@
 #main-intro
-  margin-top: 35vh
-  height: 65vh
+  margin-top: 40vh
+  height: 55vh
+  @media only screen and (max-width: 2600px)
+    margin-top: 35vh
+    height: 65vh
   @media only screen and (max-width: 700px)
     height: 52vh
   @media only screen and (max-width: 400px)
@@ -29,13 +32,15 @@
 .tile
   position: relative
   display: block
-  height: 550px
+  height: 700px
   margin-right: 5%
   width: 95%
   background-position: center
   background-repeat: no-repeat
   background-size: cover
   text-align: center
+  @media only screen and (max-width: 1440px)
+    height: 550px
   @media only screen and (max-width: 950px)
     height: 420px
   @media only screen and (max-width: 700px)
@@ -100,7 +105,11 @@
   padding-top: 8%
   padding-bottom: 8%
   padding-right: 3%
-  height: 100vh
+  height: 60vh
+  @media only screen and (max-height: 1440px)
+    height: 80vh
+  @media only screen and (max-width: 1440px)
+    height: 100vh
   @media only screen and (max-width: 700px)
     padding-top: 20%
     padding-right: 5%
@@ -109,7 +118,12 @@
     padding-top: 20%
     padding-bottom: 20%
   h1
-    display: block
+    margin-top: 15vh
+    @media only screen and (max-height: 1440px)
+      margin-top: 18%
+    @media only screen and (max-width: 1440px)
+      margin-top: 50px
+      display: block
 
 
 #experience
@@ -215,7 +229,9 @@
 
 .padding-left
   padding-left: 20px
-  margin-left: 14.583333333333334%
+  margin-left: 30%
+  @media only screen and (max-width: 2600px)
+    margin-left: 14.583333333333334%
   @media only screen and (max-width: 1150px)
     margin-left: 18%
   @media only screen and (max-width: 470px)
@@ -230,6 +246,9 @@
 #contact
   display: block
   height: 95vh
+  padding-top: 13%
+  @media only screen and (max-width: 1440px)
+    padding-top: 0px
   @media only screen and (max-width: 850px)
     height: 80vh
   img
@@ -288,21 +307,21 @@
     margin-right: 20px
 
 
-.screen-optimisation-notice
-  top: 0px
-  bottom: 0px
-  position: fixed
-  display: block
-  height: 100%
-  width: 100%
-  background: $Peach
-  opacity: 0.85
-  text-align: center
-  z-index: 99
-  @media only screen and (max-width: 1440px)
-    display: none
-  h1
-    font-size: 40px
-    margin-top: 45vh
-    color: white
+// .screen-optimisation-notice
+//   top: 0px
+//   bottom: 0px
+//   position: fixed
+//   display: block
+//   height: 100%
+//   width: 100%
+//   background: $Peach
+//   opacity: 0.85
+//   text-align: center
+//   z-index: 99
+//   @media only screen and (max-width: 1440px)
+//     display: none
+//   h1
+//     font-size: 40px
+//     margin-top: 45vh
+//     color: white
   
